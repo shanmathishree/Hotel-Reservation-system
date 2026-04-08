@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.rooms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.room {
+  border: 2px solid gray;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.room.selected {
+  background-color: lightgreen;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
